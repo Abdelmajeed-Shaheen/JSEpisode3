@@ -37,6 +37,8 @@ const hottestDays = function(temperatures, threshhold) {
   return temperatures.filter(degree => degree > threshhold);
 };
 
+
+
 /******************************************
  * logHottestDays(temperatures, threshhold)
  *
